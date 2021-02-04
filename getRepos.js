@@ -71,7 +71,7 @@ async function getListOfRepos() {
     size = _.size(req.data);
 
     for(let item in req.data) {
-      url = req.data[item].clone_url
+      url = req.data[item].html_url
       fullList.push(url);
       console.log(url);
     }
