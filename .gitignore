@@ -1,6 +1,6 @@
 node_modules/
-lists/
-repos/
+lists/*
+repos/*
 .DS_Store
 .env
 .jshintrc
