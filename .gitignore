@@ -1,6 +1,8 @@
 node_modules/
 lists/*
 repos/*
+zippedRepos/*
+
 .DS_Store
 .env
 .jshintrc
@@ -8,3 +10,4 @@ repos/*
 # Don't ignore these files
 !lists/.placeholder
 !repos/.placeholder
+!zippedRepos/.placeholder

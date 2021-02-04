@@ -10,8 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "@octokit/rest": "^18.1.0",
+    "archiver": "^5.2.0",
     "dotenv": "^8.2.0",
-    "fs": "0.0.1-security",
+    "fs-extra": "^9.1.0",
     "lodash": "^4.17.20",
     "octokit": "^1.0.0-hello-world",
     "simple-git": "^2.31.0"
