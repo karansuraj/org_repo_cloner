@@ -1,0 +1,10 @@
+node_modules/
+lists/
+repos/
+.DS_Store
+.env
+.jshintrc
+
+# Don't ignore these files
+!lists/.placeholder
+!repos/.placeholder
