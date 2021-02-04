@@ -24,3 +24,4 @@ After setting up, you can run `node getRepos.js` and the following will happen:
 2. A list of all repos filtered according to your `REPO_FILTER_REGEX` will be generated in `lists/filteredList.json`
 3. A list of all repos cut out by your `REPO_FILTER_REGEX` filter will be generated in `lists/leftoverList.json`
 4. All repos in `list/filteredList.json` will be cloned to the `repos/` folder.
+5. All cloned repos in the `/repos` folder will be zipped and stored in the `/zippedRepos` folder.
